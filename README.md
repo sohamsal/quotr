@@ -1,3 +1,3 @@
-# festo
+# quotr
 
-## engaging guests and enhancing experiences
+simplifying getting quotes, help, and information through conversational AI
