@@ -3,4 +3,6 @@
 simplifying getting quotes, help, and information through conversational AI
 
 what we plan to use
-- React, Next.js, Figma
+- React (Framework)
+- Next.js (Language to use)
+- Figma (UI/UX)
