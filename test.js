@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const port = 3001;
 const googleplaces = require("googleplaces");
-const apiKey = "AIzaSyA8UqKV9nCZFXwPp5aHKck7Bi2zi80hK3Q"; //sohams key
+const apiKey = ""; //insert api key here
 const places = new googleplaces(apiKey, "json");
 
 app.use(express.json());
@@ -29,6 +29,7 @@ app.post("/", (req, res) => {
     }
 
     const info = await getInfo(paramsString);
+    console.log(info)
     const results = info.places.slice(0, 3);
     const locations = [];
 
